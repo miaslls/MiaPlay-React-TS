@@ -1,0 +1,17 @@
+header {
+  height: fit-content;
+  display: flex;
+  gap: 1rem;
+}
+
+/* 📌 main menu */
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-menu-item {
+  font-size: larger;
+}

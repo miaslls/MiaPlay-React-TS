@@ -32,6 +32,15 @@ body {
   color: #000;
 }
 
+h1 {
+  font-size: 40pt;
+  font-weight: 400;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
 /* 📌📌📌 PORTRAIT */
 
 @media screen and (orientation: portrait) {
