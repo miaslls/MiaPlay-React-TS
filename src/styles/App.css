@@ -1,0 +1,45 @@
+/* ADOBE FONTS */
+@import url("https://use.typekit.net/ysj0rnq.css");
+
+/* BOOTSTRAP ICONS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+html * {
+  outline: none;
+  box-sizing: border-box;
+
+  border: 1px dashed #ccc;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 3rem 5rem;
+  display: flex;
+  background-color: #fff;
+  background: linear-gradient(120deg, #fff, #aaa);
+  font-family: letter-gothic-std, monospace;
+  font-weight: medium;
+  color: #000;
+}
+
+.clickable {
+  color: #17889b;
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: #000;
+}
+
+/* 📌📌📌 PORTRAIT */
+
+@media screen and (orientation: portrait) {
+  body {
+    padding: 1rem;
+  }
+
+  .clickable:hover {
+    color: #17889b;
+  }
+}
