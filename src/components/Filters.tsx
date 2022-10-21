@@ -4,8 +4,8 @@ const Filters = () => {
   return (
     <>
       <nav className="filters">
-        <div className="category-menu clickable">
-          <span>all categories</span>
+        <div className="genre-menu clickable">
+          <span>all genres</span>
           <span>
             <i className="bi bi-chevron-down"></i>
           </span>
