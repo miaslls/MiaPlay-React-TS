@@ -1,0 +1,30 @@
+footer {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 0.5rem;
+  font-size: medium;
+}
+
+.footer-title {
+  width: fit-content;
+  padding: 0 1rem;
+  border-right: 2px solid #000;
+  font-size: x-large;
+}
+
+.footer-back-to-top {
+  font-size: x-large;
+}
+
+@media screen and (orientation: portrait) {
+  footer {
+    justify-content: center;
+  }
+}
