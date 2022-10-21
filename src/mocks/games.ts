@@ -4,7 +4,7 @@ export const games = [
     cover_imgUrl: "",
     description: "",
     year: 1900,
-    imdbScore: 0,
+    imdbScore: "",
     trailer_youtubeUrl: "",
     gameplay_youtubeUrl: "",
     genre: "REF ***",

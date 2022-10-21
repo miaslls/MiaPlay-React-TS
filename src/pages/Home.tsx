@@ -2,6 +2,7 @@ import "../styles/Home.css";
 
 import Header from "../components/Header";
 import Filters from "../components/Filters";
+import GameList from "../components/GameList";
 
 const Home = () => {
   return (
@@ -10,6 +11,11 @@ const Home = () => {
         <Header />
         <Filters />
       </section>
+      <main className="game-lists">
+        <GameList />
+        <GameList />
+        <GameList />
+      </main>
     </>
   );
 };
