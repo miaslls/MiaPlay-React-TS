@@ -42,14 +42,18 @@
   font-size: smaller;
 }
 
+.game-card-description {
+  text-align: justify;
+}
+
 .game-card-info-bottom-container {
   display: flex;
   align-self: flex-end;
   gap: 0.5rem;
 }
 
-.game-card-icon {
-  font-size: x-large;
+.game-card-option-icon {
+  font-size: larger;
 }
 
 .game-card-video-outer-container {
@@ -92,6 +96,10 @@
   .game-card-info,
   .game-card-video-outer-container {
     width: 100%;
+  }
+
+  .game-card-option-icon {
+    font-size: larger;
   }
 
   .game-card-video-inner-container {

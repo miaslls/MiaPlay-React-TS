@@ -39,13 +39,13 @@ const Game = () => {
           </div>
 
           <div className="game-card-info-bottom-container">
-            <div className="game-card-icon clickable">
+            <div className="game-card-option-icon clickable">
               <i className="bi bi-pencil"></i>
             </div>
-            <div className="game-card-icon clickable">
+            <div className="game-card-option-icon clickable">
               <i className="bi bi-trash3"></i>
             </div>
-            <div className="game-card-icon clickable">
+            <div className="game-card-option-icon clickable">
               <i className="bi bi-heart"></i>
             </div>
           </div>
