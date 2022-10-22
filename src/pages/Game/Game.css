@@ -66,13 +66,13 @@
   gap: 1rem;
 }
 
-.game-card-video-arrow {
-  font-size: xx-large;
-}
-
 .game-card-video-inner-container iframe {
   width: 70%;
   aspect-ratio: 16/9;
+}
+
+.game-card-video-arrow {
+  font-size: xx-large;
 }
 
 @media screen and (orientation: portrait) {
@@ -92,5 +92,19 @@
   .game-card-info,
   .game-card-video-outer-container {
     width: 100%;
+  }
+
+  .game-card-video-inner-container {
+    justify-content: space-between;
+    gap: unset;
+  }
+
+  .game-card-video-inner-container iframe {
+    width: 80%;
+    aspect-ratio: 16/9;
+  }
+
+  .game-card-video-arrow {
+    font-size: larger;
   }
 }
