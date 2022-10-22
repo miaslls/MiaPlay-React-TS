@@ -11,6 +11,9 @@ const Footer = () => {
           <div className="footer-menu-item clickable">
             <i className="bi bi-sliders"></i>
           </div>
+          <div className="footer-menu-item clickable">
+            <i className="bi bi-house"></i>
+          </div>
         </nav>
         <h1 className="footer-title">
           Mia<span>Play</span>

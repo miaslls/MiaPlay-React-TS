@@ -10,6 +10,10 @@
   gap: 1rem;
 }
 
+.genre-title {
+  text-transform: uppercase;
+}
+
 .game-list-expand-collapse-icon {
   font-size: larger;
 }

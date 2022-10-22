@@ -23,7 +23,7 @@
 }
 
 .sort-item {
-  font-size: 1.25rem;
+  font-size: large;
 }
 
 .sort-item--selected {
@@ -36,6 +36,7 @@
 @media screen and (orientation: portrait) {
   .filters {
     width: 100%;
+    flex-direction: row-reverse;
     justify-content: space-between;
   }
 

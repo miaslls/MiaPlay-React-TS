@@ -1,17 +1,15 @@
 header {
   height: fit-content;
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
 }
-
-/* 📌 main menu */
 
 .main-menu {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 .main-menu-item {
-  font-size: larger;
+  font-size: large;
 }

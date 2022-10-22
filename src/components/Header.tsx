@@ -15,6 +15,9 @@ const Header = () => {
           <div className="main-menu-item clickable">
             <i className="bi bi-sliders"></i>
           </div>
+          <div className="main-menu-item clickable">
+            <i className="bi bi-house"></i>
+          </div>
         </nav>
       </header>
     </>

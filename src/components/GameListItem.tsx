@@ -12,10 +12,8 @@ const GameListItem = () => {
 
         <div className="game-info-container">
           <div className="game-info-top-row">
-            <h3 className="game-title">
-              The Sims 4 ahsv jlhvs lhaksv jvahs lhavs vbj
-            </h3>
-            <div className="game-year">2004</div>
+            <h3 className="game-title">The Sims 4</h3>
+            <div className="game-year">2014</div>
           </div>
 
           <div className="game-info-bottom-row">

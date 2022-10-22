@@ -7,7 +7,7 @@ const GameList = () => {
     <>
       <section className="game-list-genre-container">
         <div className="game-list-header">
-          <h2>genre</h2>
+          <h2 className="genre-title">genre</h2>
           <div className="game-list-expand-collapse-icon clickable">
             <i className="bi bi-chevron-double-down"></i>
           </div>
