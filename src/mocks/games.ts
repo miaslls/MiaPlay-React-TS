@@ -2,8 +2,8 @@ export const games = [
   {
     title: "",
     cover_imgUrl: "",
-    description: "",
     year: 1900,
+    description: "",
     imdbScore: "",
     trailer_youtubeUrl: "",
     gameplay_youtubeUrl: "",
