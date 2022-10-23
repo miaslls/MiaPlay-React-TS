@@ -1,0 +1,101 @@
+.avatar {
+  background-image: url(avatar-spritesheet-100.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.avatar-1 {
+  width: 400px;
+  height: 525px;
+  background-position: 0 0;
+}
+
+.avatar-10 {
+  width: 400px;
+  height: 525px;
+  background-position: -400px 0;
+}
+
+.avatar-11 {
+  width: 400px;
+  height: 525px;
+  background-position: -800px 0;
+}
+
+.avatar-12 {
+  width: 400px;
+  height: 525px;
+  background-position: -1200px 0;
+}
+
+.avatar-13 {
+  width: 400px;
+  height: 525px;
+  background-position: 0 -525px;
+}
+
+.avatar-14 {
+  width: 400px;
+  height: 525px;
+  background-position: -400px -525px;
+}
+
+.avatar-15 {
+  width: 400px;
+  height: 525px;
+  background-position: -800px -525px;
+}
+
+.avatar-16 {
+  width: 400px;
+  height: 525px;
+  background-position: -1200px -525px;
+}
+
+.avatar-2 {
+  width: 400px;
+  height: 525px;
+  background-position: 0 -1050px;
+}
+
+.avatar-3 {
+  width: 400px;
+  height: 525px;
+  background-position: -400px -1050px;
+}
+
+.avatar-4 {
+  width: 400px;
+  height: 525px;
+  background-position: -800px -1050px;
+}
+
+.avatar-5 {
+  width: 400px;
+  height: 525px;
+  background-position: -1200px -1050px;
+}
+
+.avatar-6 {
+  width: 400px;
+  height: 525px;
+  background-position: -1600px 0;
+}
+
+.avatar-7 {
+  width: 400px;
+  height: 525px;
+  background-position: -1600px -525px;
+}
+
+.avatar-8 {
+  width: 400px;
+  height: 525px;
+  background-position: -1600px -1050px;
+}
+
+.avatar-9 {
+  width: 400px;
+  height: 525px;
+  background-position: 0 -1575px;
+}

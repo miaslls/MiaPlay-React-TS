@@ -1,0 +1,101 @@
+.avatar--25 {
+  background-image: url(avatar-spritesheet--25.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.avatar-1--25 {
+  width: 100px;
+  height: 131px;
+  background-position: 0 0;
+}
+
+.avatar-10--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -100px 0;
+}
+
+.avatar-11--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -200px 0;
+}
+
+.avatar-12--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -300px 0;
+}
+
+.avatar-13--25 {
+  width: 100px;
+  height: 131px;
+  background-position: 0 -131px;
+}
+
+.avatar-14--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -100px -131px;
+}
+
+.avatar-15--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -200px -131px;
+}
+
+.avatar-16--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -300px -131px;
+}
+
+.avatar-2--25 {
+  width: 100px;
+  height: 131px;
+  background-position: 0 -262px;
+}
+
+.avatar-3--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -100px -262px;
+}
+
+.avatar-4--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -200px -262px;
+}
+
+.avatar-5--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -300px -262px;
+}
+
+.avatar-6--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -400px 0;
+}
+
+.avatar-7--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -400px -131px;
+}
+
+.avatar-8--25 {
+  width: 100px;
+  height: 131px;
+  background-position: -400px -262px;
+}
+
+.avatar-9--25 {
+  width: 100px;
+  height: 131px;
+  background-position: 0 -393px;
+}
