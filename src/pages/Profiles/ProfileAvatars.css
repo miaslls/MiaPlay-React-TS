@@ -1,0 +1,143 @@
+.profile-selection-avatar {
+  width: 200px;
+  height: 263px;
+  background-image: url(../../assets/avatars/avatar-spritesheet--50.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.profile-selection-avatar-1 {
+  background-position: -1px -1px;
+}
+
+.profile-selection-avatar-10 {
+  background-position: -203px -1px;
+}
+
+.profile-selection-avatar-11 {
+  background-position: -405px -1px;
+}
+
+.profile-selection-avatar-12 {
+  background-position: -607px -1px;
+}
+
+.profile-selection-avatar-13 {
+  background-position: -1px -266px;
+}
+
+.profile-selection-avatar-14 {
+  background-position: -203px -266px;
+}
+
+.profile-selection-avatar-15 {
+  background-position: -405px -266px;
+}
+
+.profile-selection-avatar-16 {
+  background-position: -607px -266px;
+}
+
+.profile-selection-avatar-2 {
+  background-position: -1px -531px;
+}
+
+.profile-selection-avatar-3 {
+  background-position: -203px -531px;
+}
+
+.profile-selection-avatar-4 {
+  background-position: -405px -531px;
+}
+
+.profile-selection-avatar-5 {
+  background-position: -607px -531px;
+}
+
+.profile-selection-avatar-6 {
+  background-position: -809px -1px;
+}
+
+.profile-selection-avatar-7 {
+  background-position: -809px -266px;
+}
+
+.profile-selection-avatar-8 {
+  background-position: -809px -531px;
+}
+
+.profile-selection-avatar-9 {
+  background-position: -1px -796px;
+}
+
+@media screen and (orientation: portrait) {
+  .profile-selection-avatar {
+    width: 100px;
+    height: 131px;
+    background-image: url(../../assets/avatars/avatar-spritesheet--25.png);
+  }
+
+  .profile-selection-avatar-1 {
+    background-position: 0 0;
+  }
+
+  .profile-selection-avatar-10 {
+    background-position: -100px 0;
+  }
+
+  .profile-selection-avatar-11 {
+    background-position: -200px 0;
+  }
+
+  .profile-selection-avatar-12 {
+    background-position: -300px 0;
+  }
+
+  .profile-selection-avatar-13 {
+    background-position: 0 -131px;
+  }
+
+  .profile-selection-avatar-14 {
+    background-position: -100px -131px;
+  }
+
+  .profile-selection-avatar-15 {
+    background-position: -200px -131px;
+  }
+
+  .profile-selection-avatar-16 {
+    background-position: -300px -131px;
+  }
+
+  .profile-selection-avatar-2 {
+    background-position: 0 -262px;
+  }
+
+  .profile-selection-avatar-3 {
+    background-position: -100px -262px;
+  }
+
+  .profile-selection-avatar-4 {
+    background-position: -200px -262px;
+  }
+
+  .profile-selection-avatar-5 {
+    background-position: -300px -262px;
+  }
+
+  .profile-selection-avatar-6 {
+    background-position: -400px 0;
+  }
+
+  .profile-selection-avatar-7 {
+    background-position: -400px -131px;
+  }
+
+  .profile-selection-avatar-8 {
+    background-position: -400px -262px;
+  }
+
+  .profile-selection-avatar-9 {
+    background-position: 0 -393px;
+  }
+}

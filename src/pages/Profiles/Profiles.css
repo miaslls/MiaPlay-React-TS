@@ -1,0 +1,84 @@
+.profile-page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-selection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.profile-selection-row {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-selection-avatar-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-selection-avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-selection-avatar-container:hover {
+  transform: scale(1.15);
+}
+
+.profile-selection-avatar-name {
+  text-transform: uppercase;
+}
+
+.profile-selection-new {
+  width: 200px;
+  height: 263px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-selection-new-icon {
+  font-size: 30pt;
+}
+
+.profile-selection-edit-avatar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: #009999;
+  font-size: x-large;
+}
+
+.profile-selection-edit-avatar-icon:hover {
+  color: #fff;
+}
+
+.profile-selection-edit-icon {
+  font-size: 30pt;
+}
+
+@media screen and (orientation: portrait) {
+  .profile-selection-new {
+    width: 100px;
+    height: 131px;
+  }
+
+  .profile-selection-new-icon {
+    font-size: x-large;
+  }
+
+  .profile-selection-edit-icon {
+    font-size: xx-large;
+  }
+}
