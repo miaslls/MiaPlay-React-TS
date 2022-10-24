@@ -52,6 +52,14 @@ h3 {
   font-size: x-large;
 }
 
+.generic-page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* 📌📌📌 PORTRAIT */
 
 @media screen and (orientation: portrait) {

@@ -8,7 +8,7 @@ import gameCardImg from "../../mocks/img/the-sims-4.png";
 const Game = () => {
   return (
     <>
-      <div className="game-page-container">
+      <div className="generic-page-container">
         <div className="wrapper">
           <Header />
 
