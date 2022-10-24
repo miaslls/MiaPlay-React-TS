@@ -1,4 +1,4 @@
-.game-list-genre-container {
+.game-list-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -6,11 +6,14 @@
 
 .game-list-header {
   display: flex;
-  align-items: flex-start;
-  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.genre-title {
+.genre {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   text-transform: uppercase;
 }
 
