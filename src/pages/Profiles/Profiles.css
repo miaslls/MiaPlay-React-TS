@@ -34,6 +34,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  transition: transform 0.3s ease;
 }
 
 .profile-selection-avatar-container:hover {
