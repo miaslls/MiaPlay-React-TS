@@ -9,7 +9,7 @@ const GameList = () => {
       <section className="game-list-container">
         <div className="game-list-header">
           <div className="genre">
-            <h2 className="genre-title">genre</h2>
+            <h2>genre</h2>
             <div className="expand-genre-icon clickable">
               <i className="bi bi-chevron-double-down"></i>
             </div>

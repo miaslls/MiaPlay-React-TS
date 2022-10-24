@@ -45,6 +45,7 @@ h1 span {
 h2 {
   font-family: scandia-web-stencil, sans-serif;
   font-size: xx-large;
+  text-transform: uppercase;
 }
 
 h3 {
