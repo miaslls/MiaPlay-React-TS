@@ -9,7 +9,7 @@
 .profile-selection-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   flex: 1;
 }
 
@@ -18,10 +18,15 @@
   justify-content: center;
 }
 
+.profile-selection-title {
+  text-transform: lowercase;
+}
+
 .profile-selection-avatar-list-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  transform: scale(0.8);
 }
 
 .profile-selection-avatar-container {

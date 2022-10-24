@@ -13,7 +13,7 @@ const Profiles = () => {
 
         <main className="profile-selection-container">
           <div className="profile-selection-row">
-            <h2>select profile</h2>
+            <h2 className="profile-selection-title">select profile</h2>
           </div>
 
           <div className="profile-selection-row">
