@@ -2,6 +2,7 @@ header {
   display: flex;
   align-items: flex-end;
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .header-left {
@@ -20,4 +21,10 @@ header {
 
 .main-menu-item {
   font-size: large;
+}
+
+@media screen and (orientation: portrait) {
+  header {
+    margin-bottom: 4rem;
+  }
 }

@@ -8,10 +8,7 @@ import Footer from "../../components/Footer";
 const Home = () => {
   return (
     <>
-      <section className="home-header">
-        <Header />
-        <Filters />
-      </section>
+      <Header />
       <main className="game-lists">
         <GameList />
         <GameList />
