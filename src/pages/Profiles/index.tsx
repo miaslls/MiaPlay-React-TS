@@ -19,38 +19,22 @@ const Profiles = () => {
           <div className="profile-selection-row">
             <div className="profile-selection-avatar-list-container">
               <div className="profile-selection-avatar-container">
-                <div className="profile-selection-avatar profile-selection-avatar-1">
-                  {/* <div className="profile-selection-edit-avatar-icon">
-                    <i className="bi bi-pencil"></i>
-                  </div> */}
-                </div>
+                <div className="profile-selection-avatar profile-selection-avatar-1"></div>
                 <div className="profile-selection-avatar-name">CAMILA</div>
               </div>
 
               <div className="profile-selection-avatar-container">
-                <div className="profile-selection-avatar profile-selection-avatar-2">
-                  {/* <div className="profile-selection-edit-avatar-icon">
-                    <i className="bi bi-pencil"></i>
-                  </div> */}
-                </div>
+                <div className="profile-selection-avatar profile-selection-avatar-2"></div>
                 <div className="profile-selection-avatar-name">FULANA</div>
               </div>
 
               <div className="profile-selection-avatar-container">
-                <div className="profile-selection-avatar profile-selection-avatar-3">
-                  {/* <div className="profile-selection-edit-avatar-icon">
-                    <i className="bi bi-pencil"></i>
-                  </div> */}
-                </div>
+                <div className="profile-selection-avatar profile-selection-avatar-3"></div>
                 <div className="profile-selection-avatar-name">FULANA 2</div>
               </div>
 
               <div className="profile-selection-avatar-container">
-                <div className="profile-selection-avatar profile-selection-avatar-4">
-                  {/* <div className="profile-selection-edit-avatar-icon">
-                    <i className="bi bi-pencil"></i>
-                  </div> */}
-                </div>
+                <div className="profile-selection-avatar profile-selection-avatar-4"></div>
                 <div className="profile-selection-avatar-name">FULANA 3</div>
               </div>
 
