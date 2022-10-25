@@ -59,7 +59,7 @@ const Game = () => {
                   <i className="bi bi-chevron-double-left"></i>
                 </div>
                 <iframe
-                  src="https://www.youtube.com/embed/z00mK3Pxc8w"
+                  src="https://www.youtube.com/embed/GJENRAB4ykA"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
