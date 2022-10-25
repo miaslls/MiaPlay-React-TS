@@ -54,12 +54,12 @@ const Profiles = () => {
         </main>
 
         <footer className="profile-page-footer">
-          <h1 className="footer-title">
-            Mia<span>Play</span>
-          </h1>
           <div className="profile-page-footer-logout clickable">
             <i className="bi bi-x-circle"></i>
           </div>
+          <h1 className="footer-title">
+            Mia<span>Play</span>
+          </h1>
         </footer>
       </div>
     </>

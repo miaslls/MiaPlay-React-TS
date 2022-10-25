@@ -18,9 +18,6 @@ const Footer = () => {
         <h1 className="footer-title">
           Mia<span>Play</span>
         </h1>
-        <div className="footer-back-to-top clickable">
-          <i className="bi bi-arrow-up-circle"></i>
-        </div>
       </footer>
     </>
   );

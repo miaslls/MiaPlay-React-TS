@@ -13,13 +13,8 @@ footer {
 }
 
 .footer-title {
-  width: fit-content;
-  padding: 0 1rem;
-  border-right: 2px solid #000;
-  font-size: x-large;
-}
-
-.footer-back-to-top {
+  padding-left: 1rem;
+  border-left: 2px solid #000;
   font-size: x-large;
 }
 
