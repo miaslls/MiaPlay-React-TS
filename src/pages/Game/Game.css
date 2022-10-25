@@ -97,6 +97,10 @@
     width: 100%;
   }
 
+  .game-card-video-outer-container {
+    margin-top: 2rem;
+  }
+
   .game-card-option-icon {
     font-size: larger;
   }
