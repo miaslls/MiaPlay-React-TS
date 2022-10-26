@@ -22,7 +22,12 @@ const Game = () => {
               <div className="game-card-info-header">
                 <h2 className="game-card-title">The Sims 4</h2>
                 <div className="game-card-subtitle">
-                  <div className="game-card-year">2014</div>
+                  <div className="game-card-subtitle-wrapper">
+                    <div className="game-card-year">2014</div>
+                    <div className="game-card-genres">
+                      simulation, fantasy, blablibla
+                    </div>
+                  </div>
                   <div className="game-card-rating">
                     <div className="game-card-rating-icon">
                       <i className="bi bi-star"></i>

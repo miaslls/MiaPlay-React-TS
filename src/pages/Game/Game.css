@@ -29,7 +29,13 @@
 .game-card-subtitle {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: space-between;
+}
+
+.game-card-subtitle-wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
 }
 
 .game-card-year {
