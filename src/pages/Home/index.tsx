@@ -1,9 +1,8 @@
 import "./Home.css";
 
 import Header from "../../components/Header";
-import Filters from "../../components/Filters";
-import GameList from "../../components/GameList";
 import Footer from "../../components/Footer";
+import GameList from "./GameList";
 
 const Home = () => {
   return (

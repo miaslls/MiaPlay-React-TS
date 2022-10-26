@@ -1,7 +1,7 @@
-import "../styles/GameList.css";
+import "./GameList.css";
 
 import GameListItem from "./GameListItem";
-import Filters from "./Filters";
+import Filters from "../../components/Filters";
 
 const GameList = () => {
   return (
