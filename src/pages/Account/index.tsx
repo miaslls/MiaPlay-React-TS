@@ -15,9 +15,6 @@ const Account = () => {
             <section className="account-section">
               <div className="account-section-header">
                 <h2>account</h2>
-                {/* <div className="account-section-edit-icon clickable">
-                  <i className="bi bi-pencil"></i>
-                </div> */}
               </div>
 
               <div className="account-info">
