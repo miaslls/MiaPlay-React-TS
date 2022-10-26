@@ -41,6 +41,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  font-size: smaller;
 }
 
 @media screen and (orientation: portrait) {

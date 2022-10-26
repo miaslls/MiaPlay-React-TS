@@ -5,7 +5,7 @@ import gameImg from "../../mocks/img/the-sims-4.png";
 const GameListItem = () => {
   return (
     <>
-      <div className="game-list-item-container">
+      <li className="game-list-item-container">
         <div
           className="game-img"
           style={{ backgroundImage: `url(${gameImg})` }}
@@ -30,7 +30,7 @@ const GameListItem = () => {
             </div>
           </div>
         </div>
-      </div>
+      </li>
     </>
   );
 };

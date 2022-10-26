@@ -19,14 +19,14 @@ const GameList = () => {
             <Filters />
           </div>
         </div>
-        <div className="game-list-items">
+        <ul className="game-list-items">
           <GameListItem />
           <GameListItem />
           <GameListItem />
           <GameListItem />
           <GameListItem />
           <GameListItem />
-        </div>
+        </ul>
         <div className="game-list-collapse clickable">
           <div className="game-list-collapse-icon">
             <i className="bi bi-chevron-double-up"></i>
