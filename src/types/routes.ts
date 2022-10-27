@@ -4,5 +4,5 @@ export enum RoutePath {
   LOGIN = "/login",
   PROFILES = "/profiles",
   ACCOUNT = "/account",
-  CONFIG = "/config",
+  ADMIN = "/admin",
 }

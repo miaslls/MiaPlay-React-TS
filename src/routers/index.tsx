@@ -5,7 +5,7 @@ import Game from "../pages/Game";
 import Login from "../pages/Login";
 import Profiles from "../pages/Profiles";
 import Account from "../pages/Account";
-import Config from "../pages/Config";
+import Admin from "../pages/Admin";
 
 const Router = () => {
   return (
@@ -15,7 +15,7 @@ const Router = () => {
       <Route path={RoutePath.LOGIN} element={<Login />} />
       <Route path={RoutePath.PROFILES} element={<Profiles />} />
       <Route path={RoutePath.ACCOUNT} element={<Account />} />
-      <Route path={RoutePath.CONFIG} element={<Config />} />
+      <Route path={RoutePath.ADMIN} element={<Admin />} />
     </Routes>
   );
 };
