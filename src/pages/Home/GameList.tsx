@@ -1,7 +1,7 @@
 import "./GameList.css";
 
 import GameListItem from "./GameListItem";
-import Filters from "../../components/Filters";
+import Sort from "../../components/Sort";
 
 const GameList = () => {
   return (
@@ -16,7 +16,7 @@ const GameList = () => {
           </div>
 
           <div className="game-list-filter">
-            <Filters />
+            <Sort />
           </div>
         </div>
         <ul className="game-list-items">

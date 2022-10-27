@@ -1,0 +1,13 @@
+.sort {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sort-item {
+  font-size: large;
+}
+
+.sort-item--selected {
+  color: #000;
+  cursor: default;
+}

@@ -1,21 +1,21 @@
-import "../styles/Filters.css";
+import "../styles/Sort.css";
 
-const Filters = () => {
+const Sort = () => {
   return (
     <>
-      <nav className="sort">
-        <div className="sort-item clickable">
-          <i className="bi bi-star"></i>
-        </div>
+      <div className="sort">
         <div className="sort-item clickable">
           <i className="bi bi-sort-alpha-down"></i>
         </div>
         <div className="sort-item sort-item--selected clickable">
           <i className="bi bi-calendar-date"></i>
         </div>
-      </nav>
+        <div className="sort-item clickable">
+          <i className="bi bi-star"></i>
+        </div>
+      </div>
     </>
   );
 };
 
-export default Filters;
+export default Sort;
