@@ -8,7 +8,7 @@ html * {
   outline: none;
   box-sizing: border-box;
 
-  /* border: 1px dashed #ccc; */
+  border: 1px dashed #ccc;
 }
 
 body {
@@ -51,6 +51,17 @@ h2 {
 h3 {
   font-family: scandia-line-web-stencil, sans-serif;
   font-size: x-large;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #000;
+  font-family: inherit;
 }
 
 .generic-page-container {
