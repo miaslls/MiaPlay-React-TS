@@ -8,7 +8,7 @@ html * {
   outline: none;
   box-sizing: border-box;
 
-  /* border: 1px dashed #ccc; */
+  /* border: 1px dashed rgb(160, 160, 160); */
 }
 
 body {

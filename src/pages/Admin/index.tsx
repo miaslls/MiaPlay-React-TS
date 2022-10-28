@@ -17,15 +17,18 @@ const Admin = () => {
               <div className="admin-section-header">
                 <div className="admin-header-wrapper">
                   <h2>games</h2>
-                  <div className="admin-add-icon clickable">
+
+                  <div className="admin-header-icon clickable">
                     <i className="bi bi-plus-circle"></i>
                   </div>
                 </div>
+
                 <div className="admin-games-filters-wrapper">
                   <Search />
                   <Sort />
                 </div>
               </div>
+
               <ul className="admin-game-list">
                 <AdminGameListItem />
                 <AdminGameListItem />
@@ -34,10 +37,77 @@ const Admin = () => {
                 <AdminGameListItem />
               </ul>
             </section>
+
             <aside>
               <section className="admin-section admin-genres-container">
-                <h2>genres</h2>
+                <div className="admin-section-header">
+                  <div className="admin-header-wrapper">
+                    <h2>genres</h2>
+
+                    <div className="admin-header-icon-wrapper">
+                      <div className="admin-header-icon clickable">
+                        <i className="bi bi-pencil"></i>
+                      </div>
+
+                      <div className="admin-header-icon clickable">
+                        <i className="bi bi-plus-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="admin-genre-list">
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">genre</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">sandbox</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">shooter</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">MOBA</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">action</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">RPG</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+
+                  <div className="admin-genre-list-item">
+                    <div className="admin-genre-name">simulation</div>
+                    <div className="admin-genre-options-icon clickable">
+                      <i className="bi bi-x"></i>
+                    </div>
+                  </div>
+                </div>
               </section>
+
               <section className="admin-section admin-users-container">
                 <h2>users</h2>
               </section>
