@@ -42,8 +42,14 @@
 
 .admin-game-rating {
   gap: 0.5rem;
+  align-items: center;
   justify-content: flex-end;
   font-size: smaller;
+}
+
+.admin-game-options-icon {
+  font-size: medium;
+  flex: 1;
 }
 
 @media screen and (orientation: portrait) {
