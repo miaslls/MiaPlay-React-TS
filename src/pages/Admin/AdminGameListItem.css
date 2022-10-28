@@ -6,7 +6,7 @@
   gap: 1rem;
 }
 
-.admin-row {
+.admin-column {
   display: flex;
   align-items: center;
 }
@@ -27,7 +27,14 @@
 }
 
 .admin-game-name {
-  flex: 6;
+  flex: 4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.admin-game-genre {
+  flex: 2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -40,8 +47,12 @@
 }
 
 @media screen and (orientation: portrait) {
+  .admin-game-column {
+    font-size: smaller;
+  }
+
   .admin-game-img {
-    width: 2rem;
+    display: none;
   }
 
   .admin-game-rating {
