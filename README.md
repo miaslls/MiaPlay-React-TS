@@ -1,3 +1,4 @@
 # MiaPlay
 
-[ ] TODO: organize avatars/spritesheets/styles
+[ ] FIXME: organize avatars/spritesheets/styles
+[ ] TODO: favico
